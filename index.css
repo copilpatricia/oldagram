@@ -1,0 +1,97 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container{
+    width: 370px;
+    margin: 20px auto;
+    border: 5px solid black;
+    border-radius: 15px;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #C6C6C6;
+    padding: 10px;
+    
+}
+
+.logo {
+    width: 120px;
+    margin-left: 5px;
+    
+}
+
+.avatar{
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.user-info{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+
+.profile-img{
+    width: 37px;
+    height: 37px;
+    border-radius: 50px;
+    margin: 0 13px;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name{
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+    margin-bottom: 0;
+}
+
+.profile-location{
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+.post{
+    width: 370px;
+    height: 370px;
+}
+
+.user-interaction{
+    margin-bottom: 15px;
+}
+
+.icon{
+    width: 23px;
+    margin: 10px 0 0 10px;
+}
+
+.likes{
+    font-weight: 700;
+    font-size: 15px;
+    margin: 10px 0 0 10px;
+}
+
+.comment{
+     font-weight: 700;
+     font-size: 15px;
+     margin: 10px 0 0 10px;
+}
+
+span{
+    font-weight: 400;
+}
